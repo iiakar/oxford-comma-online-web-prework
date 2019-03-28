@@ -4,7 +4,4 @@ def oxford_comma(array)
   
   elsif 
   Array.size=2 include 'and' b
-  
-  it "adds 'and' between elements when given a 2-element array" do
-   
-    @oxford * ","
+  oxford_comma * ","
