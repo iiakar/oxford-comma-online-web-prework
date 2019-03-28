@@ -6,7 +6,7 @@ def oxford_comma(array)
   Array.size=2 include "," 
   oxford_comma * ","
 elsif
-array.size=3. 
+array.size=3 
 
 
 
