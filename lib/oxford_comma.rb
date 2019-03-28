@@ -5,3 +5,6 @@ def oxford_comma(array)
   elsif 
   Array.size=2 include 'and' b
   oxford_comma * ","
+  
+end 
+end 
