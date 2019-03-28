@@ -5,13 +5,12 @@ def oxford_comma(array)
   elsif 
   Array.size=2.include "," 
   oxford_comma * ","
+  array.insert(1, "and").join(" ")
 elsif
 array.size=3.include "," starfruit."and"
 elsif
-Array.size>3 re
+Array.size>3
+array.insert(1,"and").join(" ")
+end 
 
-
-
-it "correctly formats arrays of lengths greater than three" do
-    expect(oxford_comma(["kiwi", "durian", "starfruit", "mangos", "dragon fruits"])).to eq("kiwi, durian, starfruit, mangos, and dragon fruits")
-    expect(oxford_comma(["kiwi", "durian", "starfruit", "mangos", "dragon fruits", "lychees", "pomelos"])).to eq("kiwi, durian, starfruit, mangos, dragon fruits, lychees, and pomelos")
+end
