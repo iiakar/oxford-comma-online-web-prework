@@ -15,4 +15,4 @@ elsif
 Array.size>3
 array.insert(1,"and").join(" ")
 end 
-
+end 
