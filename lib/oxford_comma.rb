@@ -1,11 +1,12 @@
 def oxford_comma(array) 
   oxford_comma= Array.new
   oxford_comma return Array if Array= Array 
-  
+ end 
   elsif 
   Array.size=2.include "," 
   oxford_comma * ","
   array.insert(1, "and").join(" ")
+end
 elsif
 array.size=3.include "," starfruit."and"
 elsif
