@@ -1,5 +1,5 @@
-def oxford_comma 
-  oxford_comma.array
+def oxford_comma(array) 
+  oxford_comma return array.1-element if 
   
   
   
