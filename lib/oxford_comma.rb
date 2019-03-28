@@ -5,5 +5,4 @@ def oxford_comma(array)
   elsif 
   Array.size=2 include "," 
   oxford_comma * ","
-  
 end 
