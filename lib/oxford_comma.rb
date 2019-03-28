@@ -3,7 +3,7 @@ def oxford_comma(array)
   oxford_comma return Array if Array= Array 
   
   elsif 
-  Array.size=2 include 'and' b
+  Array.size=2 include "," 
   oxford_comma * ","
   
 end 
