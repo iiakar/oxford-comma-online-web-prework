@@ -5,4 +5,10 @@ def oxford_comma(array)
   elsif 
   Array.size=2 include "," 
   oxford_comma * ","
-end 
+elsif
+array.size=3. 
+
+
+
+it "adds commas plus a final 'and' when given a 3-element array" do
+    expect(oxford_comma(["kiwi", "durian", "starfruit"])).to eq("kiwi, durian, and starfruit")
