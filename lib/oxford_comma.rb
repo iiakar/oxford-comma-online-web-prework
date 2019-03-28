@@ -7,4 +7,3 @@ def oxford_comma(array)
   oxford_comma * ","
   
 end 
-end 
